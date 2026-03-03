@@ -1,0 +1,103 @@
+
+    body{
+        background-image: url("../HabitTrackerBackground.jpg");
+        background-blend-mode: lighten;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color:rgb(8, 8, 8);
+        text-align: center;
+        font-family: "Domine", serif;
+        font-optical-sizing: auto;
+        font-weight: 200;
+        font-style: normal;
+    }
+
+    #title{
+        margin-top:50px;
+        font-size: 35px;
+        line-height:10px;
+        color: white;
+    }
+    
+    #subtitle{
+        opacity: 0.6;
+        font-size: 18px;
+        margin-bottom:20px;
+        color: white;
+    }
+
+    #calendarContainer{
+        display: flex;
+    }
+
+    #calendarDiv{
+        background-color: rgb(37, 37, 37);
+        border-radius: 11px 11px 10px 10px;
+        border-color: white;
+        margin: auto;
+        align-content: center;
+        text-align: center;
+    }
+
+    #calendarHeading {
+        display: flex;
+        justify-content: space-between;
+        border-radius: 10px 10px 0px 0px;
+        border: 1px solid rgb(255, 255, 255);
+        padding: 0px 20px;
+        font-size: 20px;
+        background-color:black;
+        line-height: 0px;
+        color: white;
+    }
+
+    #calendarContent{
+        padding: 20px;
+        border: 1px solid rgb(255, 255, 255);
+    }
+
+    .days{
+        display:flex;
+        color: black;
+    }
+
+    .day {
+        width: 28px;
+        margin: 3px;
+        padding: 13px;
+        font-size: 23px;
+        text-align: center;
+        border-radius: 30px;
+        background-color: white;
+    }
+
+    .empty-day {
+        background-color: transparent;
+        border: none;
+    }
+
+    #resetButton {
+    margin-top: 25px;
+    padding: 12px 28px;
+    font-size: 16px;
+    font-family: "Domine", serif;
+    background-color: transparent;
+    color: white;
+    border: 2px solid #3d1f5c;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+
+    #resetButton:hover {
+        background-color: #200c35;
+        color: black;
+        transform: scale(1.05);
+}
+
+
+    #resetButton:active {
+        transform: scale(0.95);
+    }
