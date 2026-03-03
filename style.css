@@ -1,6 +1,6 @@
 
     body{
-        background-image: url("../HabitTrackerBackground.jpg");
+        background-image: url("HabitTrackerBackground.jpg");
         background-blend-mode: lighten;
         background-position: center;
         background-repeat: no-repeat;
@@ -101,3 +101,4 @@
     #resetButton:active {
         transform: scale(0.95);
     }
+
